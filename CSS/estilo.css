@@ -1,0 +1,515 @@
+
+:root {
+    --primary-text-color: #000000;
+    --light-text-color: #ffffff;
+    --dark-grey: #d9d9d9;
+    --orange-accent: #f39c12;
+    --yellow-section: #FFD665;
+    --green-section: #CFFFDC;
+}
+
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-text-color);
+    margin: 0 auto;
+    max-width: 1500px;
+    overflow-x: hidden;
+    background-color: #f0f0f0; 
+}
+
+a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+
+#link {
+    background-color: #f8f8f8;
+    padding: 15px 0;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #eee;
+    position: sticky; 
+    top: 0;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+#link a {
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#link a:hover {
+    background-color: #eee;
+}
+
+
+#INICIAL {
+    background-image: url('../referencias/img21.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--light-text-color);
+    padding: 80px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh; 
+}
+
+#INICIAL h1 {
+    font-family: 'Lugrasimo', serif;
+    font-size: 100px;
+    color: var(--primary-text-color);
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 30px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+
+#MITO {
+    font-family: 'Lugrasimo', serif;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 30px 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    color: var(--light-text-color);
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 30px auto;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+#MITO p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+
+#MITO a {
+    font-size: 20px;
+    background-color: var(--orange-accent);
+    color: var(--light-text-color);
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+#MITO a:hover {
+    background-color: #e67e22;
+}
+
+
+#QUEMSOUEU {
+    background-color: var(--yellow-section);
+    color: var(--primary-text-color);
+    padding: 50px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#QUEMSOUEU h2 {
+    font-family: 'Lugrasimo', serif;
+    font-size: 80px;
+    color: var(--primary-text-color);
+    margin-bottom: 40px;
+}
+
+#QUEMSOUEU p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--primary-text-color);
+    font-size: 18px;
+    padding: 0 50px;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto 30px auto;
+}
+
+#QUEMSOUEU img {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+
+#QUEMITOESSE {
+    background-color: var(--green-section);
+    color: var(--primary-text-color);
+    padding: 50px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#QUEMITOESSE h2 {
+    font-family: 'Lugrasimo', serif;
+    font-size: 80px;
+    color: var(--primary-text-color);
+    margin-bottom: 40px;
+}
+
+#QUEMITOESSE .MITO {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin-bottom: 50px;
+}
+
+#QUEMITOESSE .pesquerdo,
+#QUEMITOESSE .pdireito {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--primary-text-color);
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 20px;
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#QUEMITOESSE img {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+
+#IMG13jpg, #imagemvaca, #outraimg2 {
+    display: block;
+    width: auto;
+    margin: 20px auto;
+}
+
+
+
+#GALERIA {
+    
+    background-image: url(/referencias/Picsart_25-05-21_15-52-15-575.jpg);
+    background-repeat: no-repeat;
+    color: #ecf0f1;
+     text-align: center;
+     padding: 30px 0;
+  color: #000;
+ background-size: auto;
+ margin: 0 auto;
+ width: 1500px;
+ height: 2200PX;
+}
+
+#GALERIA H2 {
+ 
+    font-family: 'Lugrasimo', serif;
+    font-size: 100px;
+    color: #000000;
+    margin: 83px;
+   position: relative;
+left:257PX ;
+   background-color: #FFF;
+border-radius: 50PX;
+width: 850PX;
+}
+
+#FOTOSPB {
+border: 1PX;
+border-radius: 20px;
+padding: 10px;
+background-color: #FFF;
+width: fit-content;
+position: relative;
+left: 70PX;
+}
+
+#GALERIA H3 {
+ 
+    font-family: 'Lugrasimo', serif;
+    font-size: 30px;
+    color: #000000;
+    margin: 8px;
+
+}
+
+.FOTOPB1 {
+    width: 300PX;
+}
+
+#GALERIA H4 {
+ 
+    font-family: 'Lugrasimo', serif;
+    font-size: 15px;
+    color: #000000;
+    margin: 8px;
+
+}
+
+#FOTOSIA {
+    border: 1PX;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #FFF;
+    width: fit-content;
+    position: relative;
+    LEFT: 740PX;
+    bottom: 574PX;
+padding-bottom: 100PX;
+}
+
+#FOTOSVARIADAS {
+    border: 1PX;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #FFF;
+    width: fit-content;
+    position: relative;
+    left: 300PX;
+   bottom: 470PX;
+}
+#ESCULTURAS {
+    border: 1PX;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #FFF;
+    width: fit-content;
+    position: relative;
+    left: 150PX;
+   bottom: 430PX;
+margin: 0;
+}
+
+#INDICACOES {
+    background-image: url(/referencias/HERMESINDICAc.png);
+    
+    color: #ecf0f1;
+    text-align: center;
+    padding: 30px 0;
+ color: #000;
+background-size: auto;
+margin: 0 auto;
+width: 1500px;
+height: 1800PX;
+}
+
+#INDICACOES H2 {
+ 
+    font-family: 'Lugrasimo', serif;
+    font-size: 100px;
+    color: #000000;
+    margin: 83px;
+   position: relative;
+left:257PX ;
+   background-color: #FFF;
+border-radius: 50PX;
+width: 850PX;
+}
+
+
+
+#INDICACOES H3 {
+ 
+    font-family: 'Lugrasimo', serif;
+    font-size: 30px;
+    color: #000000;
+    margin: 8px;
+
+}
+
+#jogos {
+position: relative;
+right: 300px;
+width: 385px;
+}
+
+#hades {
+    position: relative;
+   background-color: #000;
+    RIGHT: 270px;
+    width: 385px;
+   bottom: 200px;
+}
+
+#HERMES-P {
+    position: relative;
+bottom: 215PX;
+LEFT: 482PX;
+border-radius: 50PX;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: #FFF;
+width: fit-content;
+}
+
+#HERMES-GOW {
+    position: relative;
+   background-color: #000;
+    LEFT: 430px;
+    width: 385px;
+   bottom: 270px;
+
+}
+
+#HERMES-GOW-P {
+    position: relative;
+  border-radius: 50PX;
+    LEFT: 990px;
+    background-color: #FFF;
+   bottom: 535px;
+PADDING: 1PX;
+width: fit-content;
+}
+
+#MUSICA {
+    position: relative;
+    left: 560px;
+    width: 385px;
+    bottom: 270px;
+
+}
+
+#linkin {
+    position: relative;
+   background-color: #000;
+    right: 700px;
+    width: 250px;
+   bottom: 470px;
+}
+
+#linkinp {
+    position: relative;
+  border-radius: 50PX;
+    left: 120px;
+    background-color: #FFF;
+   bottom: 480px;
+PADDING: 1PX;
+width: fit-content;
+}
+#jorgeben {
+    position: relative;
+    background-color: #000;
+     left: 0px;
+     width: 250px;
+    bottom: 590px;
+}
+
+#jorgebenp {
+    position: relative;
+  border-radius: 20PX;
+    left: 620px;
+    background-color: #FFF;
+   bottom: 893px;
+PADDING: 1PX;
+width: fit-content;
+border: 100PX;
+}
+
+#FILMES {
+    position: relative;
+    right: 270px;
+    width: 385px;
+    bottom: 580px;
+
+}
+#THEFLASH {
+    position: relative;
+   background-color: #000;
+    LEFT: 195px;
+    width: 435px;
+   bottom: 800px;
+
+}
+
+#THEFLASHp {
+    position: relative;
+  border-radius: 20PX;
+    left: 920px;
+    background-color: #FFF;
+   bottom: 810px;
+PADDING: 1PX;
+width: fit-content;
+border: 100PX;
+}
+
+#HERCULES {
+    position: relative;
+   background-color: #000;
+    RIGHT: 80px;
+    width: 385px;
+   bottom: 850px;
+
+}
+
+#HEp {
+    position: relative;
+  border-radius: 20PX;
+    left: 480px;
+    background-color: #FFF;
+   bottom: 1095px;
+PADDING: 1PX;
+width: fit-content;
+border: 100PX;
+}
+
+#DEV {
+    background-color: var(--light-text-color);
+    color: var(--primary-text-color);
+    padding: 50px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 240px;
+}
+
+#DEV h3 {
+    font-family: 'Lugrasimo', serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#DEV p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px; 
+    margin: 0 auto 30px auto; 
+    position: static; 
+    right: auto;
+}
+
+#RONALDO {
+    max-width: 180px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid var(--orange-accent); 
+    position: static;
+    right: auto;
+    bottom: auto;
+    margin-top: 20px; 
+}
